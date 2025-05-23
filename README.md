@@ -32,7 +32,7 @@ Code contributions are very welcome and should be submitted as standard [pull re
 ## Building on Debian/Ubuntu
 
 ```console
-git clone https://github.com/oliverw/miningcore
+git clone https://github.com/watis23/miningcore
 cd miningcore
 ```
 
@@ -49,13 +49,17 @@ or
 ```console
 ./build-ubuntu-21.04.sh
 ```
+or
+```console
+./build-ubuntu-22.04.sh
+```
 
 ## Building on Windows
 
 Download and install the [.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
 
 ```dosbatch
-git clone https://github.com/oliverw/miningcore
+git clone https://github.com/watis23/miningcore
 cd miningcore
 build-windows.bat
 ```
@@ -69,7 +73,7 @@ build-windows.bat
 In case you don't want to install any dependencies then you can build the app using the official Microsoft .NET SDK Docker image.
 
 ```console
-git clone https://github.com/oliverw/miningcore
+git clone https://github.com/watis23/miningcore
 cd miningcore
 ```
 Then build using Docker:
